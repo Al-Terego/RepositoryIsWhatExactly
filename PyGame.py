@@ -68,6 +68,8 @@ def WordButton2(): ##Тут я пытался сделать что бы при 
         WordButton = Buttons(WordHolderButton, W // 2, y + 90, RandomWord())
         FirstTimeRunning= False
     return WordButton
+
+
 def TheGameItselfOrSmthLikeThat(): #меню игры
     global running
     global MainGame
