@@ -28,7 +28,7 @@ Exit= pygame.image.load("YetAnotherButton.jpg").convert_alpha()
 Exit= pygame.transform.scale(Exit,(150,50))
 
 
-def RandomWord(): #привязывает случаенное слово из множества к кнопке
+def RandomWord(): #случаенное слово из множества
     global WordList
     try:
         Word= WordList.pop()
