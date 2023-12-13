@@ -21,10 +21,10 @@ pygame.display.set_caption('An app')
 
 
 #images and related stuff
-ButtonFirst = pygame.image.load("images/StartButton.png").convert_alpha()
-WordHolderButton= pygame.image.load("images/WordsHolder.png").convert_alpha()
-Bg= pygame.image.load("images/BackgroundA.png")
-Exit= pygame.image.load("images/YetAnotherButton.jpg").convert_alpha()
+ButtonFirst = pygame.image.load("StartButton.png").convert_alpha()
+WordHolderButton= pygame.image.load("WordsHolder.png").convert_alpha()
+Bg= pygame.image.load("BackgroundA.png")
+Exit= pygame.image.load("YetAnotherButton.jpg").convert_alpha()
 Exit= pygame.transform.scale(Exit,(150,50))
 
 
